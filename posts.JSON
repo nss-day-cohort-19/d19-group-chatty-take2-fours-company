@@ -1,23 +1,49 @@
 {
-	"posts": [ 
-		{"post":"I'm gonna bring back ALL the POGs. We have our most talented guys working on this. It's gonna be yuge. And the Dems with their whatevers in congress, let me tell you. No one be able to deny that the POGs we create will be the best in the world. Tell them that, Spicer. I got it straight from The Onion. Great news source."},{"elementID":"post-1"}
-		
-		{"post":"Mr President, you know Spicey can't go out there without his federally issued gum."},{"elementID":"post-2"}
-		
-		{"post":"KellyAnn, give Spicer his gum."},{"elementID":"post-3"}
+	"posts": [{
+			"post": "I'm gonna bring back ALL the POGs. We have our most talented guys working on this. It's gonna be yuge. And the Dems with their whatevers in congress, let me tell you. No one be able to deny that the POGs we create will be the best in the world. Tell them that, Spicer. I got it straight from The Onion. Great news source.",
+			"elementID": "post-1"
+		},
 
-		{"post":"Mr President, I think you mean 'jobs.' The word we talked about is 'jobs.'"},{"elementID":"post-4"}
+		{
+			"post": "Mr President, you know Spicey can't go out there without his federally issued gum.",
+			"elementID": "post-2"
+		},
 
-		{"post":"KellyAnne, everyone knows I know the word 'gum.' Very talented -- the most talented people, they have all said I'm the best at words."},{"elementID":"post-5"}
+		{
+			"post": "KellyAnn, give Spicer his gum.",
+			"elementID": "post-3"
+		},
 
-		{"post":"Yes, Mr President, but we need to talk about the jobs. 'J-O-B-S.'"},{"elementID":"post-6"}
+		{
+			"post": "Mr President, I think you mean 'jobs.' The word we talked about is 'jobs.'",
+			"elementID": "post-4"
+		},
 
-		{"post":"SPICEY NEEDS HIS GUM SPICEY NEEDS HIS GUM DONT MAKE ME DO THIS SPICEY NEEDS HIS GUM"},{"elementID":"post-7"}
+		{
+			"post": "KellyAnne, everyone knows I know the word 'gum.' Very talented -- the most talented people, they have all said I'm the best at words.",
+			"elementID": "post-5"
+		},
 
-		{"post":"I can't have you ******** from your whatever when the nation needs to know I understand POGs"},{"elementID":"post-8"}
+		{
+			"post": "Yes, Mr President, but we need to talk about the jobs. 'J-O-B-S.'",
+			"elementID": "post-6"
+		},
 
-		{"post":"Of course, Mr President. Here is his gum. I don't know what I was thinking. If you need me, I'll be doing important country things down in the wine cellar."},{"elementID":"post-9"}
+		{
+			"post": "SPICEY NEEDS HIS GUM SPICEY NEEDS HIS GUM DONT MAKE ME DO THIS SPICEY NEEDS HIS GUM",
+			"elementID": "post-7"
+		},
 
-	]	
+		{
+			"post": "I can't have you ******** from your whatever when the nation needs to know I understand POGs",
+			"elementID": "post-8"
+		},
+
+		{
+			"post": "Of course, Mr President. Here is his gum. I don't know what I was thinking. If you need me, I'll be doing important country things down in the wine cellar.",
+			"elementID": "post-9"
+		}
+
+	]
 
 }
