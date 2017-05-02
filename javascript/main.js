@@ -32,6 +32,6 @@ j++
 	}
 });
 
-
+MessageForum.addEventListener("click", Chatty.delPost);
 
 Chatty.loadPosts(Chatty.crDomEl);

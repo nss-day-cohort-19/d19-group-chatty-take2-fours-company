@@ -19,7 +19,7 @@ var Chatty = (function () {
         }
 
         // Invoke the callback function so that the caller knows
-        // that the process is complete. Make sure to pass the 
+        // that the process is complete. Make sure to pass the
         // carnivore array as an argument.
 
       });

@@ -11,6 +11,15 @@ originalChatty.crDomEl = function(elementID, post){
 	    outputField.innerHTML += string;
 }
 
+originalChatty.delPost = function(event){
+	console.log("delPost");
+	if (event.target.tagName.toLowerCase() === "button") {
+    console.log("You clicked on an <li> element");
+    console.log(event.target.parentElement);
+    MessageForum.removeChild(event.target.parentElement);
+
+  }
+}
 return originalChatty;
 })(Chatty);
 
