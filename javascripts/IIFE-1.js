@@ -13,10 +13,13 @@ var Chatty = (function () {
       loader.addEventListener("load", function () {
         // Set the value of the private array
         posts = JSON.parse(this.responseText).posts;
-        callbackToInvoke(posts);
+        for(var i = 0; i < posts.length; i++){
+              callbackToInvoke(posts[i].elementID, posts[i].post);
+
+        }
 
         // Invoke the callback function so that the caller knows
-        // that the process is complete. Make sure to pass the 
+        // that the process is complete. Make sure to pass the
         // carnivore array as an argument.
 
       });
