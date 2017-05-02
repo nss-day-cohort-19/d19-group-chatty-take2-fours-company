@@ -1,0 +1,1 @@
+console.log("iife2 js");
