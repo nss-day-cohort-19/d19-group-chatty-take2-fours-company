@@ -36,17 +36,19 @@ j++
 MessageForum.addEventListener("click", Chatty.delPost);
 
 var changeColor = document.getElementById("changeColor");
-var changeHeight = document.getElementById("changeHeight");
+var changeHeight = document.getElementById("changeSize");
+var bodyText= document.getElementsByTagName("body");
+
 function darkTheme(){
-	changeColor.classlist.add("dark");
-}
+	bodyText[0].classList.toggle("dark");
+};
 
-changeColor.addEventListener("click",darkTheme());
+changeColor.addEventListener("change", darkTheme);
 function largeTheme(){
-	changeHeight.classlist.add("large");
-}
+	bodyText[0].classList.toggle("large");
+};
 
-changeHeight.addEventListener("click", largeTheme());
+changeHeight.addEventListener("change", largeTheme);
 
 
 Chatty.loadPosts(Chatty.crDomEl);
