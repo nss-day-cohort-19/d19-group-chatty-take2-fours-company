@@ -35,4 +35,20 @@ j++
 
 MessageForum.addEventListener("click", Chatty.delPost);
 
+var changeColor = document.getElementById("changeColor");
+var changeHeight = document.getElementById("changeSize");
+var bodyText= document.getElementsByTagName("body");
+
+function darkTheme(){
+	bodyText[0].classList.toggle("dark");
+};
+
+changeColor.addEventListener("change", darkTheme);
+function largeTheme(){
+	bodyText[0].classList.toggle("large");
+};
+
+changeHeight.addEventListener("change", largeTheme);
+
+
 Chatty.loadPosts(Chatty.crDomEl);
