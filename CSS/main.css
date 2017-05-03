@@ -6,6 +6,10 @@
 	color: white;
 }
 
+.dark nav {
+  background-color: navy;
+}
+
 .well {
 	padding-top: 14px;
 	height: 750px;
@@ -15,6 +19,7 @@
 }
 
 nav {
+  background-color: white;
 	position: fixed;
 	float: left;
 	text-align: center;
@@ -24,4 +29,8 @@ nav {
   	overflow: hidden;
   	top: 0;
   	width: 100%;
+}
+
+body {
+  padding-top: 67px;
 }
