@@ -19,7 +19,7 @@ clearbutton.addEventListener("click", function(event){
 
 //added eventlistener for carriage return //
 
-var j=10; 
+var j=10;
 
 messageinput.addEventListener("keypress", function(event){
 
@@ -28,6 +28,7 @@ messageinput.addEventListener("keypress", function(event){
 var elementID = "post-"+j
 	Chatty.crDomEl(elementID, messageinput.value);
 j++
+  messageinput.value = "";
 
 	}
 });
