@@ -11,9 +11,11 @@ var deletemessage = document.getElementsByClassName("deletemessage");
 
 //Added Eventlistener for reset button//
 
+
 clearbutton.addEventListener("click", function(event){
 	MessageForum.innerHTML = "";
 
+clearbutton.setAttribute("disabled",true);
 
 });
 
@@ -29,6 +31,8 @@ var elementID = "post-"+j
 	Chatty.crDomEl(elementID, messageinput.value);
 j++
   messageinput.value = "";
+  clearbutton.removeAttribute("disabled");
+
 
 	}
 });
